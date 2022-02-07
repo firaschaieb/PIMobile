@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'view/login.dart';
 import 'model/usermodel.dart';
+import 'view/update.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +19,10 @@ class MyApp extends StatelessWidget {
         },
         "/usermodel": (BuildContext context) {
           return const Usermodel();
-        }
+        },
+        "/update": (BuildContext context) {
+          return const UpdateUser();
+        },
 
       },
     );

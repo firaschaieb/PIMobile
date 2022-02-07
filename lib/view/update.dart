@@ -22,7 +22,8 @@ class _UpdateUserState extends State<UpdateUser> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Paramètres du profil"),
+        backgroundColor: Colors.deepOrangeAccent,
+        title: const Center(child: Text('Update')),
       ),
       body: Form(
         key: _keyForm,
